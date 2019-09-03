@@ -1,0 +1,168 @@
+name: basiclearn
+description: An educative application for kid. They will learn how the alphabet, to count, the color and animal&#x27;s name and sound.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  video_player:
+  audioplayers: ^0.13.1
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    #images
+      #animals
+    - assets/images/animals/1.jpg
+    - assets/images/animals/2.jpg
+    - assets/images/animals/3.jpg
+    - assets/images/animals/4.jpg
+    - assets/images/animals/5.jpg
+    - assets/images/animals/6.jpg
+    - assets/images/animals/7.jpg
+    - assets/images/animals/8.jpg
+    - assets/images/animals/9.jpg
+    - assets/images/animals/10.jpg
+      #color
+    - assets/images/color/1.png
+    - assets/images/color/2.png
+    - assets/images/color/3.png
+    - assets/images/color/4.png
+    - assets/images/color/5.png
+    - assets/images/color/6.png
+      #homepage
+    - assets/images/homepage/ABC.jpg
+    - assets/images/homepage/123.jpg
+    - assets/images/homepage/animals.jpg
+    - assets/images/homepage/color.png
+    #audio
+     #alphabet
+    - assets/audio/alphabet/A.mp3
+    - assets/audio/alphabet/B.mp3
+    - assets/audio/alphabet/C.mp3
+    - assets/audio/alphabet/D.mp3
+    - assets/audio/alphabet/E.mp3
+    - assets/audio/alphabet/F.mp3
+    - assets/audio/alphabet/G.mp3
+    - assets/audio/alphabet/H.mp3
+    - assets/audio/alphabet/I.mp3
+    - assets/audio/alphabet/J.mp3
+    - assets/audio/alphabet/K.mp3
+    - assets/audio/alphabet/L.mp3
+    - assets/audio/alphabet/M.mp3
+    - assets/audio/alphabet/N.mp3
+    - assets/audio/alphabet/O.mp3
+    - assets/audio/alphabet/P.mp3
+    - assets/audio/alphabet/Q.mp3
+    - assets/audio/alphabet/R.mp3
+    - assets/audio/alphabet/S.mp3
+    - assets/audio/alphabet/T.mp3
+    - assets/audio/alphabet/U.mp3
+    - assets/audio/alphabet/V.mp3
+    - assets/audio/alphabet/W.mp3
+    - assets/audio/alphabet/X.mp3
+    - assets/audio/alphabet/Y.mp3
+    - assets/audio/alphabet/Z.mp3
+      #animals
+    - assets/audio/animals/1.mp3
+    - assets/audio/animals/2.mp3
+    - assets/audio/animals/3.mp3
+    - assets/audio/animals/4.mp3
+    - assets/audio/animals/5.mp3
+    - assets/audio/animals/6.mp3
+    - assets/audio/animals/7.mp3
+    - assets/audio/animals/8.mp3
+    - assets/audio/animals/9.mp3
+    - assets/audio/animals/10.mp3
+      #color
+    - assets/audio/color/1.mp3
+    - assets/audio/color/2.mp3
+    - assets/audio/color/3.mp3
+    - assets/audio/color/4.mp3
+    - assets/audio/color/5.mp3
+    - assets/audio/color/6.mp3
+      #count
+    - assets/audio/count/0.mp3
+    - assets/audio/count/1.mp3
+    - assets/audio/count/2.mp3
+    - assets/audio/count/3.mp3
+    - assets/audio/count/4.mp3
+    - assets/audio/count/5.mp3
+    - assets/audio/count/6.mp3
+    - assets/audio/count/7.mp3
+    - assets/audio/count/8.mp3
+    - assets/audio/count/9.mp3
+    - assets/audio/count/10.mp3
+  #video
+    - assets/video/1.mp4
+    - assets/video/2.mp4
+    - assets/video/3.mp4
+    - assets/video/4.mp4
+    - assets/video/5.mp4
+    - assets/video/6.mp4
+    - assets/video/7.mp4
+    - assets/video/8.mp4
+    - assets/video/9.mp4
+    - assets/video/10.mp4
+  #  - images/a_dot_burr.jpeg
+  #  - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
